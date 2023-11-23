@@ -28,7 +28,7 @@ spec:
         volumeMounts:
         - name: redis
           mountPath: /data
-       volumes:
+      volumes:
       - name: redis
         persistentVolumeClaim: # this is the PVC
           claimName: ebs-redis-pvc
