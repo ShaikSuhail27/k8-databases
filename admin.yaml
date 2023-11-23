@@ -11,6 +11,6 @@ parameters:
   encrypted: "true"
 ---
 apiVersion: v1
-kind: namespace
+kind: Namespace
 metadata:
  name: roboshop
